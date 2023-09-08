@@ -1,0 +1,110 @@
+/* Home.css */
+
+body {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+}
+.container {
+  position: relative; 
+  width: 100%; 
+  height: 100vh; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  }
+  
+  .navbar {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-outline-success {
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+
+  }
+  
+  table th {
+    background-color:black;
+    color: #ddd;
+  }
+  
+  
+  .product-image img {
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 10px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .page-link:hover {
+    text-decoration: underline;
+  }
+  
